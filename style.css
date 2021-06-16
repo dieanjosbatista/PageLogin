@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #0F2027, #2C5364);
+    display: flex;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 1.5rem;
+    display: block;
+    background: white;
+    height: 390px;
+    width: 290px;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.98) 0px 3px 8px;
+}
+
+h2{
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.input-field input{
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+}
+
+#username{
+margin-top: .5rem;
+margin-bottom: .5rem;
+}
+
+#password{
+    margin-bottom: 1rem;
+}
+
+.login{
+    color: white;
+    font-size: 15px;
+    margin-top: .5rem;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(45deg, #0F2027, #2C5364);
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 15px;
+    line-height: 2rem;
+}
+
+.gmail{
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(to right, #eaba2c, #cb4538);
+    border-radius: .3rem;
+    margin-top: .8rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.github{
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(to right, #4b83eb, #1c50b1);
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+#cadastro{
+    text-align: center;
+    font-size: 12px;
+    line-height: 2rem;
+    margin-top: .5rem;
+}
+
+.main{
+    padding: 1.5rem;
+    display: block;
+    background: white;
+    height: 140px;
+    width: 290px;
+    border-radius: .5rem;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.98) 0px 3px 8px;
+}
+
+.main h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-field-novo input{
+    margin-top: .8rem;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+}
+
+#enviar button{
+    margin-top: 1rem;
+    display: block;
+    font-size: 15px;
+    color: white;
+    margin-left: auto;
+    height: 35px;
+    width: 55px;
+    background: linear-gradient(45deg, #0F2027, #2C5364);
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.voltar{
+    font-size: 15px;
+}
+
+#masterview{
+    padding: 1.5rem;
+    display: block;
+    background: white;
+    height: 470px;
+    width: 290px;
+    border-radius: .5rem;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.98) 0px 3px 8px;
+}
+
+.campos input{ 
+    margin-top: .5rem;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+}
+
+#confirmar button{
+    margin-top: 1rem;
+    display: block;
+    font-size: 15px;
+    color: white;
+    margin: auto;
+    margin-top: 2rem;
+    height: 35px;
+    width: 85px;
+    background: linear-gradient(45deg, #0F2027, #2C5364);
+    border-radius: .3rem;
+    cursor: pointer;
+}
